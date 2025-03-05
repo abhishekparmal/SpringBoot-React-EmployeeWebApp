@@ -1,1 +1,18 @@
-project-frontend-code/
+# Ignore node_modules and build files
+frontend/node_modules/
+backend/target/
+build/
+dist/
+.DS_Store
+.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore IntelliJ IDEA / VS Code
+.idea/
+.vscode/
+
+# Ignore system files
+Thumbs.db
